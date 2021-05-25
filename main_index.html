@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cassita Hibbert</title>
+</head>
+
+
+<body>
+    <!-- nav bar -->
+    <div > <!--nav bar-->
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #f07832; font-size: 50px !important;">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav justify-content-between w-50">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="porfolio.html">porfolio</a>
+                  <a class="nav-link" href="projects.html">projects</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    
+    </div>
+
+
+     
+<!-- =------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="column-66">
+      <h1 class="card-title main-title">Cassita Hibbert</h1>           
+      <h2 class="card-text main-text">Freelance 3D genralist <br> Indie game developer <br> commission 2D artist </h2>
+    </div>
+    <div class="column-33">
+      <div class="face"> <img src="images/profile.jpg" alt="face"></div>   
+    </div>
+  </div>
+</div>
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<!-- icon and character info -->
+ <!-- 2 part row 33 and 66 , image and text (character and character sheet) -->
+ <div class="container-fluid">
+  <div class="row">
+    <div class="column-33">
+      <!-- swap ot with tall animation or 3d (java is in notes for 3d rendering)/ fully render but export as tall smooth loop video -->
+      <img src="images/stu.gif" alt="studio" width="90%" height="auto">
+    </div>
+    
+    <div class="column-66">
+      
+      <!--  need a bio,education,work expiriance and skills sections -->
+      <!--  percetage bar , rounded corners, color change margin/padding change  -->
+      <button class="tablink" onclick="openPage('bio', this, '#010100')" id="defaultOpen"><i class="fas fa-user-alt fa-3x"></i></button>
+      <button class="tablink" onclick="openPage('education', this, '#fc4120')"><i class="fas fa-school fa-3x"></i></button>
+      <button class="tablink" onclick="openPage('jobs', this, '#FD7F20')"><i class="fas fa-briefcase fa-3x"></i></button>
+      <button class="tablink" onclick="openPage('stats', this, '#f19216')"><i class="fas fa-gamepad fa-3x"></i></button>
+      
+      
+      <!-- sheet sections , names, content  -->
+      <!-- these need a coheirant fixed size -->
+      <div id="bio" class="tabcontent"> <!-- change to bio / DONE -->
+        <h3 class="char_title_3">Bio</h3> <br>
+        <p class="char_text">Creative and fast learning BTEC 
+          graduate with a knack for 3D and 
+          concept art. I possess relevant 
+          work experience gained whilst 
+          working with a multinational 
+          business and within a local council. 
+          <br>
+          Capable of working on my own or 
+          as part of a team and I have the 
+          ability to communicate effectively 
+          when influencing decision makers,
+          to consider alternative options in 
+          relation to their briefs.
+          <br> 
+          I am keen to secure an entry-level 
+          role within a organisation 
+          that will provide opportunities for 
+          further development and 
+          progression.</p>
+
+          <hr>
+
+          <h3 class="char_title_3">interests</h3>
+          <p class="char_text">Outside of the tech world I spend my free time between exersise, movies, books and podcasts  </p>
+
+          <hr>
+
+          <h3 class="char_title">contact info</h3>
+          <div class="row">
+            <div class="col"><a href="http://cometturtle.artstation.com/" target="_blank"><i class="fab fa-artstation fa-3x"></i></a>
+              <br> <br>
+              <p class="char_text">art station</p>
+            </div>
+            <div class="col"><a href="https://www.linkedin.com/in/cassita-hibbert-9a113b166/ " target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+              <br> <br>
+              <p class="char_text">linkedin</p>
+            </div>
+            <div class="col"><address><a href="mailto:cassitahibbert@outlook.com"><i class="fas fa-at fa-3x"></i></a></address>
+            
+              <p class="char_text">cassitahibbert@outlook.com</p>
+            </div>
+            <div class="col"><i class="fas fa-phone fa-3x"></i>
+              <br> <br>
+              <p class="char_text">07534553727</p>
+            </div>
+          </div>
+      
+          
+
+      </div>
+      
+      <div id="education" class="tabcontent"><!-- change to education / DONE  -->
+        <h3 class="char_title_3">Education</h3> <br>
+        <h4 class="char_title_4">Generation Multiverse
+          <br>
+          software engineer trainee
+          <br>
+          march 2021 - may 2021 
+        </h4>
+        <p class="char_text">
+          Participated in a 6 week training program that taught me HTML,CSS and Javascript. Learning, building and making deadlines. This website is a product of the course as well as the Quest Tracker that can be found on the projects page.
+        </p>
+
+        <br> <hr>
+
+        <h3 class="char_title_3">2018-2020 Big Creative Education</h3>
+        <p class="char_text"> Cambridge Technical Diploma in Game Design– Grade D*D 
+          <br>
+          Team recipient of the 2019 Young Enterprise Program 
+          Award for Customer Service
+          <br>
+          2020 Nominee and winner of the Jack Petchey 
+          Achievement Award for Outstanding Achievers
+          <br>
+          Founding member of the BCE Black Horse Knights E-Sports Team
+        </p>
+        <br><hr>
+
+        <h3 class="char_title_3">2013-2018 Enfield County School for Girls</h3>
+        <p class="char_text">English 4, Higher Maths 5, Art and Design, Fine Art 6, Computer Science 4</p>
+     
+
+      </div>
+      
+      <div id="jobs" class="tabcontent"><!-- change to previous work  -->
+        <h3 class="char_title_3">Work Experience</h3> <br>
+        <h4 class="char_title_4">
+          Waltham forest Council
+          <br>
+          Unity Programmer / UI Artist/ Concept Artist / 3D Artist
+          <br>
+          September 2019 - December 2019
+         </h4>
+        <p class="char_text">I had the opportunity to work as part of a team where I took on multiple roles 
+          in the scheduled pipeline, to complete an educational space themed game, all about computer safety.</p>
+        <br> <hr>
+        <h4 class="char_title_4">Framestore <br> June 2019 - June 2019 </h4>
+        <p class="char_text">During this time, I learnt about their detailed pipelines and processes, 
+          that enabled them to create the unique service, that was provided to the entertainment industry. 
+          <br>
+          I took part in Maya workshops and VFX review meetings for the films Wonder woman 1984, 
+          Spiderman Homecoming, tom and jerry the movie and His Dark Materials. I also had the privilege to 
+          look though archived files to learn the work process and techniques for various VXFs.
+        </p>
+        <br> <hr>
+        <h4 class="char_title_4">Waltham forest council
+          <br>
+          junior app designer
+          <br>
+          may 2019 - july 2019
+        </h4>
+        <p class="char_text">
+          I was selected to work one day a week as part of a team to develop a chatbot app for the council, 
+          that would help record and report local crime in the borough, in partnership with the Metropolitan Police.
+        </p>
+
+
+      </div>
+      
+      <div id="stats" class="tabcontent"><!-- change to stats -->
+        <h3 class="char_title_3">Skill list</h3> <br>
+        
+        <h3 class="char_title_3">Main skills</h3> <br>
+            <!-- skill bars here \/ -->
+
+            <h2 class="char_title_2">blender</h2>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+            <br>
+
+           <h2 class="char_title_2">maya</h2>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+            <br>
+
+            <h2 class="char_title_2">unity</h2>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div> 
+
+            <br>
+
+            <h2 class="char_title_2">problem solving</h2>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+            <br>
+
+            <h2 class="char_title_2">communiation</h2>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+            <br>
+            <br>
+
+            <h3 class="char_title_3">Other skills</h3>
+            <p class="char_text">Unreal Engine, C#, C++, Python, HTML, CSS, Javascript</p>
+          
+            
+
+
+
+
+
+
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<!-- HTML END -->
+<!-- java below -->
+    <script src="https://kit.fontawesome.com/08111d5429.js" crossorigin="anonymous"></script>
+        <script src="javascript/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</body>
+</html>

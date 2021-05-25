@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/porfolio.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>porfolio</title>
+</head>
+
+
+<body>
+
+  <!-- ----------------------------------------------------------------------------------nav bar--------------------------------------------------------------------------------------- -->
+    <div > <!--nav bar-->
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #f07832; font-size: 50px !important;">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav justify-content-between w-50">
+                  <a class="nav-link" href="main_index.html">Home</a> 
+                  <a class="nav-link active" aria-current="page" href="#">porfolio</a>
+                  <a class="nav-link" href="projects.html">projects</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    
+    </div>
+
+    
+<!-- -----------------------------------------------------------------------------------------back to top button--------------------------------------------------------------------------------- -->
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+
+
+<!-- ---------------------------------------------------------------------------------------gallery--------------------------------------------------------------------------------------- -->
+     <div class="container-fluid">
+       <br>
+        <div id="myBtnContainer">
+          <button id="all-btn" class="btn active" onclick="filterSelection('all')"> Show all</button>
+          <button id="models-btn" class="btn" onclick="filterSelection('models')"> models</button>
+          <button id="fanart-btn" class="btn" onclick="filterSelection('FanArt')"> Fanart</button>
+          <button id="scenes-btn" class="btn" onclick="filterSelection('scenes')"> scenes</button>
+          <button id="scenes-btn" class="btn" onclick="filterSelection('sculpts')"> sculpts</button>
+        </div>
+
+          <div class="masonry">
+            <div class="column">
+              <div class="filterDiv item scenes">
+                <div class="item__content">
+                  <div class="content">
+                    <img src="images/tallTest5.png" alt="scenes" style="width:100%">
+                  </div>
+                </div>
+                <br>
+              </div>              
+              <div class="filterDiv item FanArt">
+                <div class="item__content">
+                  <div class="content">
+                    <img src="images/itt2.11.png" alt="itt" style="width:100%">
+                  </div>
+                </div>
+                <br>
+              </div>
+              <div class="filterDiv item sculpts">
+                <div class="item__content">
+                  <div class="content">
+                    <img src="images/torso.png" alt="torso" style="width:100%">
+                  </div>
+                </div>
+                <br>
+              </div>
+              <div class="filterDiv item models">
+                <div class="item__content">
+                  <div class="content">
+                    <img src="images/cube5.png" alt="rubix5" style="width:100%">
+                  </div>
+                </div>
+                <br>
+              </div>           
+               <div class="filterDiv item models">
+                <div class="item__content">
+                  <div class="content">
+                    <img src="images/cube4.png" alt="rubix4" style="width:100%">
+                  </div>
+                </div>
+                <br>
+              </div>
+
+
+              <!-- more items -->
+            </div>
+            <div class="column">
+              <div class="filterDiv item models">
+                <div class="item__content">
+                  <div class="content">
+                    <img src="images/cube2.png" alt="rubix2" style="width:100%">
+                  </div>
+                </div>
+                <br>
+              </div>              
+              <div class="filterDiv item scenes">
+                <div class="item__content">
+                  <div class="content">
+                    <img src="images/test8.png" alt="scenes" style="width:100%">
+                  </div>
+                </div>
+                <br>
+              </div>
+              <div class="filterDiv item models">
+                <div class="item__content">
+                  <div class="content">
+                    <img src="images/cube1.png" alt="rubix1" style="width:100%">
+                  </div>
+                </div>
+                <br>
+              </div>
+              <div class="filterDiv item scenes">
+                <div class="item__content">
+                  <div class="content">
+                    <img src="images/test10.png" alt="scenes" style="width:100%">
+                  </div>
+                </div>
+                <br>
+              </div>
+              <div class="filterDiv item FanArt">
+                <div class="item__content">
+                  <div class="content">
+                    <img src="images/itt2.9.png" alt="itt" style="width:100%">
+                  </div>
+                </div>
+                <br>
+              </div>
+              <div class="filterDiv item FanArt">
+                <div class="item__content">
+                  <div class="content">
+                    <img src="images/itt2.5.png" alt="itt" style="width:100%">
+                  </div>
+                </div>
+                <br>
+              </div>
+              <div class="filterDiv item scenes">
+                <div class="item__content">
+                  <div class="content">
+                    <img src="images/test11.png" alt="scenes" style="width:100%">
+                  </div>
+                </div>
+                <br>
+              </div>
+              <div class="filterDiv item models">
+                <div class="item__content">
+                  <div class="content">
+                    <img src="images/cube3.png" alt="rubix3" style="width:100%">
+                  </div>
+                </div>
+                <br>
+              </div>                            
+              <div class="filterDiv item scenes">
+                <div class="item__content">
+                  <div class="content">
+                    <img src="images/test11.png" alt="scenes" style="width:100%">
+                  </div>
+                </div>
+                <br>
+              </div>
+
+              <!-- more items -->
+            </div>
+
+            <div class="column">
+              <div class="filterDiv item scenes">
+                <div class="item__content">
+                  <div class="content">
+                    <img src="images/test10.png" alt="scenes" style="width:100%">
+                  </div>
+                </div>
+                <br>
+              </div>
+              <div class="filterDiv item FanArt">
+                <div class="item__content">
+                  <div class="content">
+                    <img src="images/itt2.16.png" alt="itt" style="width:100%">
+                  </div>
+                </div>
+                <br>
+              </div>
+              <div class="filterDiv item models">
+                <div class="item__content">
+                  <div class="content">
+                    <img src="images/arcade_3.png" alt="models4" style="width:100%">
+                  </div>
+                </div>
+                <br>
+              </div>
+              <br> <br>
+              <div class="filterDiv item scenes">
+                <div class="item__content">
+                  <div class="content">
+                    <img src="images/test7.png" alt="scenes" style="width:100%">
+                  </div>
+                </div>
+                <br>
+              </div>
+              <div class="filterDiv item scenes">
+                <div class="item__content">
+                  <div class="content">
+                    <img src="images/tallTest4.png" alt="scenes" style="width:100%">
+                  </div>
+                </div>
+                <br>
+              </div>
+              <div class="filterDiv item models">
+                <div class="item__content">
+                  <div class="content">
+                    <img src="images/arcade_2.png" alt="models4" style="width:100%">
+                  </div>
+                </div>
+                <br>
+              </div>
+              <br><br>
+              <div class="filterDiv item models">
+                <div class="item__content">
+                  <div class="content">
+                    <img src="images/arcade_1.png" alt="models4" style="width:100%">
+                  </div>
+                </div>
+                <br>
+              </div>
+
+              <!-- more items -->
+            </div>
+          </div>
+
+
+
+
+ 
+        <!-- END GRID -->
+        </div>
+     </div>
+
+    
+    <script src="javascript/porfolio.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</body>
+</html>
