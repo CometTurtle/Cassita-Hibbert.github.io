@@ -191,4 +191,18 @@ body, html {
 #jobs {background-color: #FD7F20;}
 #stats {background-color: #f19216;}
 
+/* ---------------------------------------------------------download button for cv--------------------------------- */
+.btn {
+  background-color: #ff6c31;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: orange;
+}
 
